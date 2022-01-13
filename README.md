@@ -9,3 +9,6 @@ The web application uses a React front end to render the graphical userface, Nod
 5. Start the React application by typing: npm start.
 6. Start the server by typing: nodemone server.js.
 7. The web application will be visible through: http://localhost:3000
+
+# To watch a demo of the product working:
+https://youtu.be/wgIN8DKT8Ik
