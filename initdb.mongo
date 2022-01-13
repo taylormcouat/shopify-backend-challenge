@@ -1,0 +1,14 @@
+conn = new Mongo();
+db = conn.getDB("inventory-database");
+db.dropDatabase();
+
+result = db.items.insert([
+	{
+		id: '7adc80db-493c-4133-95a3-cac803f261c7',
+		name: 'Playstation 5',
+        description: 'Sonys next-gen console!',
+	    qty: '50'
+	}
+]);
+
+print(result);
